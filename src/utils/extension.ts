@@ -88,7 +88,7 @@ export async function openOptions(timeout: number = 5000): Promise<boolean> {
 }
 
 export interface SyncData {
-  platforms: string[]
+  platforms: PlatformInfo[]
   auto_publish: boolean
   data: DynamicData | ArticleData | VideoData
 }

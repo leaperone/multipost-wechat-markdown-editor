@@ -128,7 +128,7 @@ function toRaw<T extends object>(obj: T): T {
 
 function post() {
   const sdata: SyncData = {
-    platforms: selectedAccounts.value.map(account => account.name),
+    platforms: selectedAccounts.value,
     auto_publish: false,
     data: toRaw(form.value),
   }
