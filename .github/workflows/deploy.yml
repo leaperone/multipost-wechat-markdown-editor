@@ -52,10 +52,10 @@ jobs:
   notify:
     needs: build-and-deploy
     if: always()
-    uses: leaper-one/leaperone-releases/.github/workflows/feishu-notification.yml@main
+    uses: leaperone/leaperone-releases/.github/workflows/feishu-notification.yml@main
     with:
       status: ${{ needs.build-and-deploy.result }}
-      ref: leaper-one/MultiPost-Markdown-Editor@${{ github.event.client_payload.ref }}
+      ref: leaperone/MultiPost-Markdown-Editor@${{ github.event.client_payload.ref }}
       run_number: ${{ github.run_number }}
       message: ${{ github.event.client_payload.message }}
       author: ${{ github.event.client_payload.author }}
