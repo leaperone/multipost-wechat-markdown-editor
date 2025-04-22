@@ -112,6 +112,7 @@ export interface FileData {
 export interface ArticleData {
   title: string
   content: string
+  htmlContent: string
   digest: string
   cover: FileData
   images: FileData[]
