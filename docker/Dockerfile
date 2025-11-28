@@ -6,10 +6,11 @@ RUN apk update --no-cache && apk add --no-cache \
     pixman-dev \
     cairo-dev \
     pango-dev \
-    pkgconfig
+    pkgconfig \
+    curl
 
-# Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+# Install pnpm using npm (more reliable than corepack in Docker)
+RUN npm install -g pnpm@latest
 
 COPY . /app
 WORKDIR /app
