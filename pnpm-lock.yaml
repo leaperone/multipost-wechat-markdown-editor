@@ -27,6 +27,9 @@ importers:
       '@codemirror/view':
         specifier: 6.38.8
         version: 6.38.8(patch_hash=b8605747598f5f6c64ac060294b07185a9feb98ec18da8bcc47f4319a4d06ec2)
+      uuid:
+        specifier: ^13.0.0
+        version: 13.0.0
     devDependencies:
       '@antfu/eslint-config':
         specifier: 6.2.0
