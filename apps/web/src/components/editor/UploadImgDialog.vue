@@ -1066,7 +1066,7 @@ function emitUploads(file: File) {
                 variant="link"
                 class="p-0"
                 as="a"
-                href="https://github.com/doocs/md/blob/main/docs/telegram-usage.md"
+                href="https://github.com/leaper-one/multipost-wechat-markdown-editor/blob/main/docs/telegram-usage.md"
                 target="_blank"
               >
                 如何使用 Telegram？

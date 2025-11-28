@@ -69,7 +69,7 @@ function formCustomSave() {
       variant="link"
       class="p-0"
       as="a"
-      href="https://github.com/doocs/md/blob/main/docs/custom-upload.md"
+      href="https://github.com/leaper-one/multipost-wechat-markdown-editor/blob/main/docs/custom-upload.md"
       target="_blank"
     >
       参数详情？

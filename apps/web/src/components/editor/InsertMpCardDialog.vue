@@ -168,7 +168,7 @@ function submit(formValues: any) {
             variant="link"
             class="p-0 h-auto text-left whitespace-normal"
             as="a"
-            href="https://github.com/doocs/md/blob/main/docs/mp-card.md"
+            href="https://github.com/leaper-one/multipost-wechat-markdown-editor/blob/main/docs/mp-card.md"
             target="_blank"
           >
             如何获取公众号 ID？

@@ -8,10 +8,7 @@ export default defineBackground({
         browser.runtime.openOptionsPage()
         return
       }
-      if (detail.reason === `install`) {
-        browser.tabs.create({ url: `https://md-pages.doocs.org/welcome` })
-      }
-      else if (detail.reason === `update`) {
+      if (detail.reason === `install` || detail.reason === `update`) {
         browser.runtime.openOptionsPage()
       }
     })
